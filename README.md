@@ -1,5 +1,5 @@
 # Instructions
-The instructions for installing and running the Vue realworld app are below.
+The instructions for installing and running the Vue realworld app are below. The little bit of castle code I used is in the public/index.html file and it sends the user to castle dashboard on app load rather than form submit (I wasn't able to get script src loading in Vue components as of yet)
 
 [![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
