@@ -19,9 +19,6 @@
   <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
 
-  <!-- castle CDN -- put your app id after the js? to replace YOUR-APP-ID -->
-  <script src="https://d2t77mnxyo7adj.cloudfront.net/v1/c.js?YOUR-APP-ID"></script>
-
 </head>
 
 <body>
@@ -35,15 +32,7 @@
 
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Symbol "></script>
 
-  <!-- script for castle (hardcoded user id) -->
   <script>
-    _castle('identify', 'e325bcdd10ac')
-    var clientId = _castle('getClientId');
-    console.log(clientId)
-
-    // tried login succeeded event below when couldn't get it working in backend. 
-    // really what seems to be needed for this to work as instructed is to send the clientId to backend with the /api/login call that happens in login page
-    _castle('authenticate', '$login.succeeded', clientId)
 
   </script>
 </body>
